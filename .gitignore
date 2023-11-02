@@ -1,0 +1,25 @@
+# npm
+node_modules/
+# next.js build files
+.next
+# environment variables
+.env
+.env.production
+!.env.example
+.pnp.*
+build-storybook.log
+package-lock.json
+# IDE specific
+.idea
+# typescript
+*.tsbuildinfo
+
+.turbo
+dist/
+build/
+coverage/
+.vscode
+.DS_Store
+
+storybook-static/
+.react-email
